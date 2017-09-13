@@ -1,4 +1,4 @@
-package com.example.guannan.recyclerview_operation;
+package com.example.guannan.recyclerview_operation.recyclerhelper;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -10,6 +10,7 @@ import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
+import com.example.guannan.recyclerview_operation.R;
 import com.example.guannan.recyclerview_operation.bean.ItemData;
 
 import java.util.ArrayList;

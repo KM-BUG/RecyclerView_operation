@@ -1,4 +1,4 @@
-package com.example.guannan.recyclerview_operation;
+package com.example.guannan.recyclerview_operation.recyclerhelper;
 
 import android.content.Context;
 import android.support.v4.view.GestureDetectorCompat;
@@ -64,7 +64,8 @@ public abstract class RecyclerItemTouchListener implements RecyclerView.OnItemTo
         }
     }
 
+    //RecyclerView条目的单击
     public abstract void onItemClick(RecyclerView.ViewHolder holder);
-
+    //RecyclerView的长按
     public abstract void onItemLongPress(RecyclerView.ViewHolder holder);
 }
