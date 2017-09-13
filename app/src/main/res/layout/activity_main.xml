@@ -25,6 +25,13 @@
             android:onClick="clickWithTimeLine"
             android:text="带分隔线和时间轴"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="dragClick"
+            android:text="线性侧滑删除，拖拽排序"/>
+
     </LinearLayout>
 
 </RelativeLayout>

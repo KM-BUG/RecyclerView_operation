@@ -4,8 +4,10 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
 import android.widget.Toast;
 
 import com.example.guannan.recyclerview_operation.bean.ItemData;
@@ -53,7 +55,6 @@ public class RecyclerViewWithDividerActivity extends Activity {
 
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(linearLayoutManager);
-
         mRecyclerView.addItemDecoration(new DividerItemDecoration(Color.RED,2));    //添加分隔线
 
         mRecyclerView.addOnItemTouchListener(new RecyclerItemTouchListener(this,mRecyclerView) {    //添加单击，长按操作
@@ -69,5 +70,23 @@ public class RecyclerViewWithDividerActivity extends Activity {
                 Toast.makeText(RecyclerViewWithDividerActivity.this,"长按：选中第"+adapterPosition+"条",Toast.LENGTH_SHORT).show();
             }
         });
+    }
+
+    /**
+     * 线性布局
+     * @param view
+     */
+    public void linearLayoutClick(View view){
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(linearLayoutManager);
+    }
+
+    /**
+     * 网格布局
+     * @param view
+     */
+    public void gridLayoutClick(View view){
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 4);
+        mRecyclerView.setLayoutManager(gridLayoutManager);
     }
 }

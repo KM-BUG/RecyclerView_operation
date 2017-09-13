@@ -102,7 +102,7 @@ public class ItemCallback extends android.support.v7.widget.helper.ItemTouchHelp
      */
     @Override
     public void onSelectedChanged(RecyclerView.ViewHolder viewHolder, int actionState) {
-        if (actionState != ItemTouchHelper.ACTION_STATE_IDLE) {
+        if (actionState != ItemTouchHelper.ACTION_STATE_IDLE && actionState!=ItemTouchHelper.ACTION_STATE_SWIPE) {  //侧滑状态不设置背景
             viewHolder.itemView.setBackgroundColor(Color.DKGRAY);
         }
         super.onSelectedChanged(viewHolder, actionState);

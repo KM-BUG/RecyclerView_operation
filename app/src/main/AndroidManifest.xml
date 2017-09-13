@@ -26,6 +26,10 @@
         <activity
             android:name=".RecyclerViewWithTimeLineActivity"
             android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".RecyclerViewWithDividerAndMoveActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

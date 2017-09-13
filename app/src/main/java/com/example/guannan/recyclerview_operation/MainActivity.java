@@ -26,5 +26,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //侧滑删除，拖拽排序
+    public void dragClick(View view){
+        Intent intent = new Intent(this, RecyclerViewWithDividerAndMoveActivity.class);
+        startActivity(intent);
+    }
+
 
 }
