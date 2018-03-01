@@ -1,4 +1,4 @@
-package com.example.guannan.recyclerview_operation;
+package com.example.guannan.recyclerview_operation.adapter;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.guannan.recyclerview_operation.R;
 import com.example.guannan.recyclerview_operation.bean.ItemData;
 
 import java.util.ArrayList;

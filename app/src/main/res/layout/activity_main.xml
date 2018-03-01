@@ -32,6 +32,12 @@
             android:onClick="dragClick"
             android:text="线性侧滑删除，拖拽排序"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="stickyClick"
+            android:text="悬停效果"/>
     </LinearLayout>
 
 </RelativeLayout>

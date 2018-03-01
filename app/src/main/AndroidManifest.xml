@@ -30,6 +30,10 @@
         <activity
             android:name=".RecyclerViewWithDividerAndMoveActivity"
             android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".StickyActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

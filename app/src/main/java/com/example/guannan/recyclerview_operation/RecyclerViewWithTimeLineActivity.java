@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.Toast;
 
+import com.example.guannan.recyclerview_operation.adapter.ItemAdapter;
 import com.example.guannan.recyclerview_operation.bean.ItemData;
 import com.example.guannan.recyclerview_operation.recyclerhelper.RecyclerItemTouchListener;
 import com.example.guannan.recyclerview_operation.recyclerhelper.TimeLineDecoration;

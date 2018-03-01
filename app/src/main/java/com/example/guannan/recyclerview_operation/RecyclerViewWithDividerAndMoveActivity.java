@@ -11,6 +11,7 @@ import android.support.v7.widget.helper.ItemTouchHelper;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.guannan.recyclerview_operation.adapter.ItemAdapter;
 import com.example.guannan.recyclerview_operation.bean.ItemData;
 import com.example.guannan.recyclerview_operation.recyclerhelper.DividerItemDecoration;
 import com.example.guannan.recyclerview_operation.recyclerhelper.ItemCallback;

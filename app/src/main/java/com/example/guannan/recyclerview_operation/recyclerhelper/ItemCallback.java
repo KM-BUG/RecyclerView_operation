@@ -5,7 +5,7 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 
-import com.example.guannan.recyclerview_operation.ItemAdapter;
+import com.example.guannan.recyclerview_operation.adapter.ItemAdapter;
 
 import java.util.Collections;
 

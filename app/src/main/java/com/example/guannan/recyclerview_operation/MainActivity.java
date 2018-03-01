@@ -32,5 +32,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    //悬停效果
+    public void stickyClick(View view){
+        Intent intent = new Intent(this, StickyActivity.class);
+        startActivity(intent);
+    }
+
 
 }
